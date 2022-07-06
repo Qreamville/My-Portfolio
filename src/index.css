@@ -13,7 +13,7 @@
 }
 
 :root {
-  --primary-color: tomato;
+  --primary-color: #ff6347;
   --text-color: #ddd;
   --bg-color: #070b25;
 }
@@ -28,5 +28,4 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   color: var(--text-color);
-  background-color: var(--bg-color);
 }
