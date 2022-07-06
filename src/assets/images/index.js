@@ -1,0 +1,8 @@
+export { default as Css } from './css-logo.svg'
+export { default as Html } from './html-logo.svg'
+export { default as Js } from './js-logo.svg'
+export { default as ReactJs } from './react-logo.svg'
+export { default as Git } from './git-logo.svg'
+export { default as npm } from './npm-logo.svg'
+export { default as Bootstrap } from './bootstrap-logo.png'
+export { default as Tailwind } from './tailwind-logo.svg'

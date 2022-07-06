@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica Nue";
+  src: url("./assets/fonts/helvetica-neu.ttf") format("ttf");
+}
+
+:root {
+  --primary-color: tomato;
+  --text-color: #ddd;
+  --bg-color: #070b25;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Helvetica Nue", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
