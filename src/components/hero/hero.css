@@ -24,3 +24,18 @@
 .hero-navbar__resume a:hover {
   color: var(--text-color);
 }
+
+.hero-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-profile__image img {
+  border-radius: 50%;
+}
+
+.hero-profile__name {
+  font-family: "Coolvetica", sans-serif;
+}
