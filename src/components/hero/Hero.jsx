@@ -2,8 +2,42 @@ import React from "react";
 import Particle from "../particles/Particle";
 import Profile from "../../assets/images/profile.png";
 import "./hero.css";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaArrowDown,
+  FaDownload,
+} from "react-icons/fa";
+import { SiCodewars } from "react-icons/si";
 
 const Hero = () => {
+  // Array of Navigation
+  const links = [
+    { href: "https://github.com/Qreamville", icon: <FaGithub /> },
+    { href: "https://twitter.com/Balqees_Oyeleye", icon: <FaTwitter /> },
+    {
+      href: "https://www.linkedin.com/in/balikis-oyeleye-3624a6191/",
+      icon: <FaLinkedin />,
+    },
+    { href: "https://www.codewars.com/users/Qreamville", icon: <SiCodewars /> },
+  ];
+
+  const navLinks = links.map((link, _idx) => {
+    return (
+      <li className="my-3 hover:text-tomato" key={_idx}>
+        <a
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-3xl"
+        >
+          {link.icon}
+        </a>
+      </li>
+    );
+  });
+
   return (
     <div className="hero">
       <Particle />
@@ -15,9 +49,10 @@ const Hero = () => {
           <div className="hero-navbar__resume text-2xl">
             <a
               href="#resume"
-              className="text-tomato border-tomato hover:bg-tomato border"
+              className="text-tomato font-semibold border-tomato hover:bg-tomato border flex items-center justify-center gap-2"
             >
-              Resume
+              <span>Resume</span>
+              <FaDownload />
             </a>
           </div>
         </nav>
@@ -29,13 +64,19 @@ const Hero = () => {
               className="w-full h-auto overflow-hidden"
             />
           </div>
-          <h2 className="hero-profile__name text-6xl text-tomato mb-2">
+          <h2 className="hero-profile__name text-6xl text-tomato mb-2 font-semibold">
             Balikis Oyeleye
           </h2>
           <p className="text-2xl">I'm a Front-End Developer</p>
-          <div></div>
-          <button>
-            <a href="#projects">See My Works</a>
+          <ul className="hero-profile__socials-links flex gap-6">{navLinks}</ul>
+          <button className="border border-tomato text-tomato py-2 px-4 mt-4 hover:bg-tomato hover:text-bg-blue">
+            <a
+              href="#projects"
+              className="text-xl flex items-center gap-2 font-semibold"
+            >
+              <span>View My Works</span>
+              <FaArrowDown />
+            </a>
           </button>
         </div>
       </div>

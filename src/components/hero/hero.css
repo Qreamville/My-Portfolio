@@ -22,7 +22,7 @@
 }
 
 .hero-navbar__resume a:hover {
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .hero-profile {

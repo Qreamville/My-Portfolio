@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "tomato": "#ff6347"
+        "tomato": "#ff6347",
+        "bg-blue": "#070b25"
       },
     },
   },
