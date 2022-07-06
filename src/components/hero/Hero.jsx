@@ -1,6 +1,7 @@
 import React from "react";
 import Particle from "../particles/Particle";
 import Profile from "../../assets/images/profile.png";
+import Pdf from "../../assets/Resume.pdf";
 import "./hero.css";
 import {
   FaGithub,
@@ -48,8 +49,9 @@ const Hero = () => {
           </h1>
           <div className="hero-navbar__resume text-2xl">
             <a
-              href="#resume"
+              href={Pdf}
               className="text-tomato font-semibold border-tomato hover:bg-tomato border flex items-center justify-center gap-2"
+              download
             >
               <span>Resume</span>
               <FaDownload />
