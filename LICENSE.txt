@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2022 by Michal (https://codepen.io/Mertl/pen/XWdyRwJ)
+Copyright (c) 2022 by Balikis Oyeleye
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
