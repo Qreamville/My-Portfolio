@@ -19,8 +19,22 @@
 }
 
 html {
-  font-size: 62.5%;
   font-family: "Helvetica Nue", sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #444 var(--bg-color);
+}
+
+html::-webkit-scrollbar {
+  width: 1vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #444;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
 }
 
 body {
