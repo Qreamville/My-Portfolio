@@ -19,6 +19,7 @@
 }
 
 html {
+  font-size: 62.5%;
   font-family: "Helvetica Nue", sans-serif;
   scroll-behavior: smooth;
   scrollbar-width: thin;
