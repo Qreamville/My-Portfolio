@@ -30,7 +30,7 @@ const Particle = () => {
             }
           },
           "color": {
-            "value": "#fff"
+            "value": "ff6347"
           },
           "shape": {
             "type": "star",
@@ -71,7 +71,7 @@ const Particle = () => {
           "line_linked": {
             "enable": true,
             "distance": 600,
-            "color": "#ffffff",
+            "color": "#999",
             "opacity": 0.4,
             "width": 2
           },
