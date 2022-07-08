@@ -55,6 +55,16 @@ const Projects = () => {
             );
           })}
         </div>
+        <div className="text-center mt-10">
+          <a
+            href="https://github.com/Qreamville?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+            className="border-b cursor-pointer border-tomato text-2xl"
+          >
+            View More Projects
+          </a>
+        </div>
       </div>
     </section>
   );
