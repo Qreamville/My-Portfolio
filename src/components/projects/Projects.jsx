@@ -55,7 +55,7 @@ const Projects = () => {
             );
           })}
         </div>
-        <div className="text-center mt-10">
+        <div className="text-center mt-14">
           <a
             href="https://github.com/Qreamville?tab=repositories"
             target="_blank"
