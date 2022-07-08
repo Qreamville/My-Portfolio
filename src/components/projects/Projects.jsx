@@ -9,7 +9,7 @@ const Projects = () => {
         <h2 className="text-6xl text-center text-tomato font-bold">
           My Projects.
         </h2>
-        <div className="projects mt-8 grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2">
+        <div className="projects mt-8 grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-2">
           {data.map((proj) => {
             return (
               <div className="project" key={proj.id}>
