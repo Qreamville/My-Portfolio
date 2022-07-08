@@ -4,7 +4,6 @@ import { loadFull } from "tsparticles";
 
 const Particle = () => {
   const particlesInit = async (main) => {
-    console.log(main);
     await loadFull(main);
   };
 
