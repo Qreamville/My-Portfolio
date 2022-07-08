@@ -1,3 +1,7 @@
 .about {
   border-top: 1px solid #444;
 }
+
+.about h2 {
+  font-family: "Coolvetica", sans-serif;
+}
