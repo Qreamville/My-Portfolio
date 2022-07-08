@@ -1,3 +1,7 @@
 #projects {
   border-top: 1px solid #444;
 }
+
+#projects h2 {
+  font-family: "Coolvetica", sans-serif;
+}
