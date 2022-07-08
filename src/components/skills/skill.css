@@ -1,0 +1,20 @@
+.skills {
+  border-top: 1px solid #444;
+}
+
+.skills h2 {
+  font-family: "Coolvetica", sans-serif;
+}
+
+.skill img {
+  cursor: pointer;
+}
+
+.skill img:hover {
+  transform: scale(1.2);
+}
+
+.tailwind {
+  position: absolute;
+  bottom: -35px;
+}
