@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
 @font-face {
   font-family: "Coolvetica";
   src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Helvetica Nue";
-  src: url("./assets/fonts/helvetica-neu.ttf") format("ttf");
 }
 
 :root {
@@ -20,7 +17,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Helvetica Nue", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #444 var(--bg-color);
