@@ -12,6 +12,12 @@
   z-index: -1;
 }
 
+.hero-navbar {
+  position: fixed;
+  background-color: rgba(7, 11, 37, 0.98);
+  padding-bottom: 12px;
+}
+
 .hero-navbar__brand {
   font-family: "Coolvetica", sans-serif;
 }

@@ -40,10 +40,10 @@ const Hero = () => {
   });
 
   return (
-    <div className="hero">
+    <div id="top" className="hero">
       <Particle />
-      <div className="hero-main w-full container mx-auto h-4/5">
-        <nav className="hero-navbar flex justify-between items-center w-full pt-4">
+      <div className="hero-main w-full container mx-auto h-full">
+        <nav className="hero-navbar flex justify-between items-center w-full pt-4 container mx-auto">
           <h1 className="hero-navbar__brand text-6xl font-bold">
             Qream<span className="text-tomato">ville</span>
           </h1>
