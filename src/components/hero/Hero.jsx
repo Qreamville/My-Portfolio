@@ -40,10 +40,9 @@ const Hero = () => {
   });
 
   return (
-    <div id="top" className="hero">
-      <Particle />
-      <div className="hero-main w-full container mx-auto h-full">
-        <nav className="hero-navbar flex justify-between items-center w-full pt-4 container mx-auto">
+    <header id="top" className="hero">
+      <nav className="hero-navbar w-full pt-4">
+        <div className=" flex justify-between items-center container mx-auto">
           <h1 className="hero-navbar__brand text-6xl font-bold">
             Qream<span className="text-tomato">ville</span>
           </h1>
@@ -57,7 +56,10 @@ const Hero = () => {
               <FaDownload />
             </a>
           </div>
-        </nav>
+        </div>
+      </nav>
+      <Particle />
+      <div className="hero-main w-full container mx-auto h-full">
         <div className="hero-profile h-full">
           <div className="hero-profile__image w-72">
             <img
@@ -82,7 +84,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
