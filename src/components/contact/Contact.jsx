@@ -46,7 +46,7 @@ const Contact = () => {
           href={link.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl"
+          className="text-2xl"
         >
           {link.icon}
         </a>
@@ -60,21 +60,21 @@ const Contact = () => {
         <h2 className="text-6xl text-center text-tomato font-bold">
           Contact Me
         </h2>
-        <div className="contact flex">
-          <div className="contact-text">
-            <p>
+        <div className="contact flex flex-col md:flex-row gap-x-16 gap-y-10 mt-12">
+          <div className="contact-text w-full md:w-2/5 flex flex-col gap-4">
+            <p className="text-xl">
               Let's make something new, different and more meaningful or make
               something visually pleasing.
               <span className="text-tomato"> Just Say Hello!</span>
             </p>
-            <ul className="list-disc">
+            <ul className="list-disc text-xl">
               <li>07037079464</li>
               <li>oyeleyebalikis@yahoo.com</li>
               <li>Lagos, Nigeria</li>
             </ul>
             <ul className="flex gap-4">{navLinks}</ul>
           </div>
-          <div className="contact-form">
+          <div className="contact-form w-full md:w-3/5">
             <form className="pt-4" ref={form} onSubmit={sendEmail}>
               <ul className="flex flex-col gap-6">
                 <div className="flex gap-4">
@@ -103,7 +103,6 @@ const Contact = () => {
                     name="subject"
                     placeholder="Subject"
                     className="w-full"
-                    required
                   />
                 </li>
                 <li className="w-full">
@@ -115,7 +114,9 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <button className="contact-btn">Send</button>
+                  <button className="contact-btn border border-tomato px-4 py-2 text-2xl text-tomato hover:bg-tomato hover:text-bg-blue">
+                    Send
+                  </button>
                 </li>
               </ul>
             </form>
