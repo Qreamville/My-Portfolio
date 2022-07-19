@@ -4,11 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 
-@font-face {
-  font-family: "Coolvetica";
-  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
-}
-
 :root {
   --primary-color: #ff6347;
   --text-color: #ddd;
