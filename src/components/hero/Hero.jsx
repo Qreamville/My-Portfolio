@@ -43,10 +43,10 @@ const Hero = () => {
     <header id="top" className="hero">
       <nav className="hero-navbar w-full pt-4">
         <div className=" flex justify-between items-center container mx-auto">
-          <h1 className="hero-navbar__brand text-6xl font-bold">
+          <h1 className="hero-navbar__brand text-5xl font-bold">
             Qream<span className="text-tomato">ville</span>
           </h1>
-          <div className="hero-navbar__resume text-2xl">
+          <div className="hero-navbar__resume text-lg">
             <a
               href={Pdf}
               className="text-tomato font-semibold border-tomato hover:bg-tomato border flex items-center justify-center gap-2"

@@ -1,6 +1,7 @@
 .hero {
   position: relative;
   height: 100vh;
+  z-index: 9999999999999999999999999;
 }
 
 #tsparticles {
@@ -20,7 +21,7 @@
 }
 
 .hero-navbar__brand {
-  font-family: "Coolvetica", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-navbar__resume a {
@@ -44,5 +45,5 @@
 }
 
 .hero-profile__name {
-  font-family: "Coolvetica", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
